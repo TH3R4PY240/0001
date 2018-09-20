@@ -1,0 +1,57 @@
+/**
+ *
+ * Beschreibung
+ *
+ * @version 1.0 vom 13.09.2018
+ * @author                                                                                                      
+ */
+
+public class Aufgabe5 {
+  
+  public static void main(String[] args) {
+    /*
+     * Eine Ausgabe in der geprüft wird, ob das Ergebnis größer oder kleiner als "0" ist.
+     * 
+     */
+    
+     int Sekt = 1;
+    
+     if (Sekt<40) {
+      System.out.println("Preis =" + Sekt * 5 );
+     } else {
+      System.out.println("Preis =" + Sekt * 4.5 );         
+     } // end of if
+    
+    
+    
+    
+    
+    
+    int c = 0;
+    if (c>=0) {
+      System.out.println("c ist positiv");
+    } else {
+      System.out.println("c ist negativ");
+    } // end of if-else
+    
+    
+    int b = -8;
+    if (b==5) {
+      System.out.println("b ist 5");
+    } else {
+      if (b==999) {
+        System.out.println("b ist 999");
+      } // end of if
+      System.out.println("b ist -8");
+    } // end of if-else
+    
+    
+        int a = 8;
+    if (a==2) {
+      System.out.println("a ist 2");
+    } else {
+      System.out.println("a ist nicht 2");
+    } // end of if-else 
+  } // end of main
+
+} // end of class Aufgabe5
